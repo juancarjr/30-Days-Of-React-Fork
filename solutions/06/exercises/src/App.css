@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 850px;
+  gap: 2px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
